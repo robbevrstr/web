@@ -38,6 +38,7 @@ body {
     background: #000;
     border-radius: 10em;
     line-height: 30px;
+    border: 1px solid #00fffc;
   }
   
   .btn::before {
