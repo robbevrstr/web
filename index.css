@@ -22,13 +22,13 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    
+    flex-direction: column;
   }
   
   .btn {
     padding: 8px 20px;
-    width: 100px;
-    height: 20px;
+    width: 350px;
+    height: 30px;
     color: white;
     font-weight: 700;
     border-radius: 0;
@@ -37,7 +37,7 @@ body {
     position: relative;
     background: #000;
     border-radius: 10em;
-    line-height: 20px;
+    line-height: 30px;
   }
   
   .btn::before {
@@ -71,7 +71,7 @@ body {
   }
   
   header {
-    margin-top: 20em;
+    margin-top: 25em;
     text-align: center;
     display: flex;
     flex-direction: column;
