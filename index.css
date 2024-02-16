@@ -2,7 +2,6 @@ body {
     background: url(./background.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 10vh;
@@ -10,13 +9,7 @@ body {
     font-family: 'Raleway',
     sans-serif;
   }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+    
   .center-container {
     display: flex;
     align-items: center;
