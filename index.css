@@ -31,7 +31,7 @@ body {
     background: #000;
     border-radius: 10em;
     line-height: 30px;
-    border: 1px solid #00fffc;
+    border: 1.5px solid #ffffff;
   }
   
   .btn::before {
@@ -40,7 +40,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(120deg, transparent, #00fffc, transparent);
+    background: linear-gradient(120deg, transparent, #ffffff, transparent);
     transform: translateX(-100%);
     transition: 0.6s;
     position: center;
@@ -50,8 +50,8 @@ body {
   
   .btn:hover {
     background: transparent;
-    box-shadow: 0 0 20px 5px white;
-    color: #00fffc;
+    box-shadow: 0 0 20px 5px rgb(0, 0, 0);
+    color: #ffffff;
   }
     
   main {
@@ -65,7 +65,7 @@ body {
   }
   
   header {
-    margin-top: 25em;
+    margin-top: 28em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ body {
     width: 8em;
     height: 8em;
     border-radius: 100%;
-    border: 0.1px solid #00fffc;
+    border: 1.5px solid #ffffff;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
   }
   
