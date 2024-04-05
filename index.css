@@ -12,6 +12,7 @@ body {
     
   .center-container {
     display: flex;
+    flex-basis: auto;
     align-items: center;
     justify-content: center;
     gap: 20px;
